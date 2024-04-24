@@ -1,11 +1,13 @@
 import '../layouts/css/footer.css'
-import logo from '../layouts/img/#'
-        <footer>
+
+export default function IndexPage(){
+    return(<>
+      <footer>
         <section className="section-footer"> 
             <div id="footer-bottom">
                 <div>
                     <figure>
-                        <img src={logo} alt=""/>
+                        <img alt=""/>
                         <figcaption>ZeroTwoShop</figcaption>
                     </figure>
                     <p>060-145-337<br/>
@@ -15,7 +17,7 @@ import logo from '../layouts/img/#'
                 <div>
                     <h4>Products</h4>
                     <a href="#">Sales</a><br/>
-                    <a href="#">Price</a><br/>f
+                    <a href="#">Price</a><br/>
                     <a href="#">Popular</a><br/>
                 </div>
                 <div>
@@ -30,7 +32,26 @@ import logo from '../layouts/img/#'
                     <a href="#">Telegram</a><br/>
                     <a href="#">TikTok</a><br/>
                 </div> 
+                <div>
+                    <h4>Support service</h4>
+                    <a href="#">060145337</a><br/>
+                    <a href="#">antoninaitz@gmail.com</a><br/>
+                    <a href="#">Help</a><br/>
+                </div> 
             </div>
         </section>
     </footer>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </>)
+}
+
+      
     

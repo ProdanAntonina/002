@@ -1,4 +1,4 @@
-import '../layouts/css/sign_up.css'
+import '../layouts/css/account.css'
 export default function Account(){
     return <>
     <section id="accmain">
@@ -7,7 +7,7 @@ export default function Account(){
             <hr/>
         </header>
         <article class="art-info">
-                Create your account and stay up to date with <strong>all</strong>the offers. Come to the community too!
+                Create your account and stay up to date with <strong>all</strong> the offers. Come to the community too!
                 If you don't already have an account on <strong>ZeroTwoShop</strong>, here you can create one.
                 Fill in the form with your data, and then go to your favorite products.
         </article>

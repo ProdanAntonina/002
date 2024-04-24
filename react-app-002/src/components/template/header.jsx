@@ -1,11 +1,11 @@
 import '../layouts/css/header.css'
-import logo from '../layouts/img/#'
+
 import { Link } from "react-router-dom";
 export default function Header(){
     return <>
         <hr id="header-hr"/>     
         <header className="header-logo-nav">
-            <Link to="/"> <img id="logo-name" src={logo} alt="ZTS_logo"/></Link>
+            <Link to="/"> <img id="logo-name"  alt="ZTS_logo"/></Link>
 
         <nav>
             <Link to="/About">About Us</Link>
