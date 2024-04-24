@@ -1,7 +1,30 @@
-body{
+
+#root {
+  display: flex;
+  justify-content: center;
+  color: #111111;
+}
+
+.App {
   width: 1250px;
+}
+
+
+
+.overflow {
+  display: flex;
+  justify-content: center;
+  transform: translate(-335px, 0);
+  width: 1920px;
+}
+
+.width {
+  width: 1250px;
+}
+
+body {
   margin: 0 auto;
-  font-family: Nunito;
+  font-family: "Lato";
   overflow-x: hidden;
-  
+  line-height: 1.5;
 }
